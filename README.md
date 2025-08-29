@@ -70,19 +70,24 @@ like
 
 | like_id | tweet_id | user_id | date_time |
 
-📌 API Documentation
-Method	Endpoint	Description	Auth Required
-POST	/register/	Register a new user	❌
-POST	/login/	Login & get JWT token	❌
-GET	/user/tweets/feed/	Get latest 4 tweets from people user follows	✅
-GET	/user/following/	Get list of people the user is following	✅
-GET	/user/followers/	Get list of people following the user	✅
-GET	/tweets/:tweetId/	Get details of a tweet (likes, replies, date-time) if following	✅
-GET	/tweets/:tweetId/likes/	Get list of users who liked a tweet (if following)	✅
-GET	/tweets/:tweetId/replies/	Get list of replies on a tweet (if following)	✅
-GET	/user/tweets/	Get all tweets of logged-in user	✅
-POST	/user/tweets/	Create a new tweet	✅
-DELETE	/tweets/:tweetId/	Delete own tweet only	✅
+## 📌 API Documentation (Table Format)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| **POST** | `/register/` | Register a new user | ❌ |
+| **POST** | `/login/` | Login & get JWT token | ❌ |
+| **GET**  | `/user/tweets/feed/` | Get latest 4 tweets from people user follows | ✅ |
+| **GET**  | `/user/following/` | Get list of people the user is following | ✅ |
+| **GET**  | `/user/followers/` | Get list of people following the user | ✅ |
+| **GET**  | `/tweets/:tweetId/` | Get details of a tweet (likes, replies, date-time) if following | ✅ |
+| **GET**  | `/tweets/:tweetId/likes/` | Get list of users who liked a tweet (if following) | ✅ |
+| **GET**  | `/tweets/:tweetId/replies/` | Get list of replies on a tweet (if following) | ✅ |
+| **GET**  | `/user/tweets/` | Get all tweets of logged-in user | ✅ |
+| **POST** | `/user/tweets/` | Create a new tweet | ✅ |
+| **DELETE** | `/tweets/:tweetId/` | Delete own tweet only | ✅ |
+
+
+
 ▶️ How to Run
 
 Clone the repository:
