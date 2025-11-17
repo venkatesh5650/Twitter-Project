@@ -127,7 +127,8 @@ Secure user operations (e.g., cannot delete others’ tweets).
 📌 Note for Recruiters / HR
 
 This project demonstrates my ability to:
-✔ Build secure, scalable backend APIs.
-✔ Work with databases (SQLite) and schema design.
-✔ Implement authentication & authorization using JWT.
-✔ Apply real-world Twitter-like features in a structured project.
+
+- ✔ Build secure, scalable backend APIs.
+- ✔ Work with databases (SQLite) and schema design.
+- ✔ Implement authentication & authorization using JWT.
+- ✔ Apply real-world Twitter-like features in a structured project.
