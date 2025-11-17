@@ -1,8 +1,9 @@
-Twitter Clone API
+## 🚀 Twitter Clone Backend (Node.js + Express + SQLite)
 
-A Node.js + Express + SQLite project that replicates core features of Twitter like user authentication, following, tweeting, liking, and replying. The backend is powered by RESTful APIs and JWT-based authentication.
+A backend-only Twitter-like system built using Node.js, Express, and SQLite, featuring secure user authentication, tweet management, likes, replies, and follower relationships. The backend is fully powered by REST APIs with JWT-based authentication.
 
-##🚀 Features Implemented
+## 🚀 Features Implemented
+
 
 ### 👤 User Management
 
@@ -93,8 +94,8 @@ like
 
 Clone the repository:
 
-git clone https://github.com/your-username/twitter-clone.git
-cd twitter-clone
+git clone https://github.com/venkatesh5650/Twitter-Project.git
+cd Twitter-Project
 
 
 ### Install dependencies:
@@ -117,19 +118,19 @@ Use tools like Postman / Thunder Client to test APIs.
 
 ### 🎯 What I Learned
 
-Designing REST APIs for real-world apps.
+- Designing RESTful backend APIs for real-world apps.
+- Implementing JWT authentication & middleware.
+- Writing complex SQL queries (JOINs, counts, aggregations).
+- Applying authorization rules (e.g., users cannot delete others’ tweets).
+- Structuring backend projects using MVC architecture.
 
-Implementing JWT authentication middleware.
-
-SQL queries for joins, counts, and nested conditions.
-
-Secure user operations (e.g., cannot delete others’ tweets).
-
+  
 ### 📌 Note for Recruiters / HR
 
 This project demonstrates my ability to:
 
-- ✔ Build secure, scalable backend APIs.
-- ✔ Work with databases (SQLite) and schema design.
-- ✔ Implement authentication & authorization using JWT.
-- ✔ Apply real-world Twitter-like features in a structured project.
+- ✔ Build secure & scalable backend APIs
+- ✔ Implement JWT authentication & authorization
+- ✔ Design database schemas and SQL queries
+- ✔ Develop real-world features similar to Twitter
+- ✔ Structure backend projects professionally
