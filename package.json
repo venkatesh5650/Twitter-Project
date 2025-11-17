@@ -2,7 +2,11 @@
   "name": "twitter",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/server.js",
+"scripts": {
+  "start": "node src/server.js"
+}
+,
   "author": "",
   "license": "ISC",
   "dependencies": {
